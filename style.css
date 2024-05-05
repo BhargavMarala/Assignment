@@ -1,0 +1,281 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* padding: 10px; */
+    justify-content: left;
+    align-items: center;
+    column-gap: 50px;
+    /* margin-left: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(40, 40, 190);
+    font-weight: bolder;
+    font-size: medium;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    /* background-color: greenyellow; */
+
+}
+
+
+.head>div {
+    
+}
+
+.head>.home:hover,
+.head>.course:hover,
+.head>.contact:hover,
+.head>.number:hover,
+.head>.email:hover {
+    padding: 10px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+
+/* .head>div>svg:hover{
+    fill: white;
+} */
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(110, 110, 110, 0.556);
+}
+
+.phone {
+    margin-top: 1px;
+}
+
+.email {
+    margin-top: 1px;
+}
+
+.image {
+    float: left;
+}
+
+.mainmatter {
+    position: relative;
+    margin-left: 280px;
+    margin-top: 50px;
+    color: rgb(76, 75, 75);
+
+}
+
+.submatter {
+    position: relative;
+    margin-left: 480px;
+    color: rgba(110, 110, 110, 0.556);
+}
+
+.byte {
+    font-weight: bolder;
+    color: blue;
+}
+
+.byte:hover {
+    text-decoration-line: underline;
+}
+
+.button1 {
+    position: relative;
+    margin-left: 50px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #0661a7;
+    margin-top: 30px;
+    font-size: large;
+    color: white;
+}
+
+
+
+
+.provide {
+    display: flex;
+    justify-content: justify;
+    column-gap: 60px;
+    margin-top: 70px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+}
+
+.provide>div {
+    background-color: #0661a7;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+
+.provide>div>h2,
+.provide>div>ul,
+.provide>div>button,
+.provide>div>form {
+    margin-left: 30px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+li {
+    line-height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+form {
+    background-color: white;
+    height: 350px;
+    width: 650px;
+    border-radius: 5px;
+    /* margin-top: -100px; */
+
+}
+
+form>p {
+    color: black;
+    margin-left: 10px;
+}
+
+form>input,
+form>option {
+    margin: 10px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(154, 152, 152);
+
+}
+
+form>input {
+    height: 30px;
+    width: 500px;
+}
+
+form>span {
+    color: #0071bd;
+    margin-left: 10px;
+    margin-top: 50px
+}
+
+form>.button3 {
+    background-color: #0661a7;
+    font-weight: bolder;
+    color: #fff;
+
+}
+
+
+
+
+
+
+h1 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub>div {
+    /* background-color: green; */
+    height: 200px;
+    width:400px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    text-align: center;
+    /* margin: 20px; */
+    border: 0px solid gray;
+    /* border-color: grey; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+.sub>div>img {
+    height: 80px;
+    width: 80px;
+}
+
+.sub>div>p {
+    font-size: small;
+    color: gray;
+}
+
+
+
+
+
+
+
+/*  .endpage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0071bd;
+    height: 100px;
+    border: none;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.endpage>div {
+    text-align: center;
+    color: #fff;
+
+
+}*/
+
+
+
+.endpage{
+background-color: #0071bd;
+color: #fff;
+text-align: center;
+padding: 10px;
+
+}
+.home1{
+margin: 20px;
+color: white;
+word-spacing: 5px;
+font-size: large;
+
+}
+.privacy{
+color: #fff;
+font-size: large;
+}
+.designed{
+color: #fff;
+font-size: large;
+}
